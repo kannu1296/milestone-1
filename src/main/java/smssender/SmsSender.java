@@ -4,7 +4,7 @@ package smssender;
  * Abstract Class Example
  */
 abstract public class SmsSender {
-    abstract public void eastablishConnectionWithTower();
+    abstract public void establishConnectionWithTower();
 
     public void sendSMS(){
       /**
