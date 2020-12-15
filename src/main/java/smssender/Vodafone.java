@@ -2,7 +2,7 @@ package smssender;
 
 public class Vodafone extends SmsSender {
     @Override
-    public void eastablishConnectionWithTower() {
+    public void establishConnectionWithTower() {
 
     }
 

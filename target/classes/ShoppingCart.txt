@@ -1,0 +1,3 @@
+100:Watch
+50:Jeans
+200:Shoes

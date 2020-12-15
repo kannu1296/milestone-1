@@ -1,0 +1,4 @@
+Tomato:10
+Onion:20
+Potato:25
+Poha:50

@@ -2,7 +2,7 @@ package smssender;
 
 public class Airtel extends SmsSender {
     @Override
-    public void eastablishConnectionWithTower() {
+    public void establishConnectionWithTower() {
 
     }
 
