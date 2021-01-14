@@ -4,7 +4,7 @@ package inheritance;
  * Program to demonstarte single level inheritance
  */
 public class Student extends Person {
-    private int marks;
+    public int marks;
     private String tutorials;
 
     public Student(){}

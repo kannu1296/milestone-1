@@ -19,7 +19,7 @@ public class StudentTestTest {
         Assert.assertEquals(1, valReturn);
     }
 
-    @Test(expected = StudentAlreadyExistCustomException.class)
+    @Test(expected = StudentAlreadyExistException.class)
     public void saveDuplicateStudent(){
         studentTest.saveStudent(new Student(1, "karan", "CSE"));
         studentTest.saveStudent(new Student(1, "karan", "CSE"));

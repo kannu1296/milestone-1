@@ -16,10 +16,10 @@ public class StudentTest {
     * @param student
     * in set
     */
-    public int saveStudent(Student student) throws StudentAlreadyExistCustomException{
+    public int saveStudent(Student student) throws StudentAlreadyExistException {
     boolean val = studentHashSet.add(student);
     if(!val)
-        throw new StudentAlreadyExistCustomException("Roll number is already exist");
+        throw new StudentAlreadyExistException("Roll number is already exist");
     return studentHashSet.size();
     }
 }
